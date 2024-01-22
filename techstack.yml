@@ -1,0 +1,188 @@
+repo_name: ethiotelecom-et/create-issue-branch
+report_id: e778679c1e0edcd69da22f33785c5b31
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-22T20:11:08+00:00'
+requested_by: actions-user
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch
+  detection_source: Repo Metadata
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2019-07-18 07:22:56.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Ahmed Elehwany
+  last_updated_on: 2020-11-25 23:47:51.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/.github/workflows/app-stats.yml
+  detection_source: ".github/workflows/app-stats.yml"
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2023-03-03 06:51:59.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2019-07-18 07:22:56.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2019-07-18 10:43:40.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2023-11-27 23:09:24.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2019-07-18 07:22:56.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Ahmed Elehwany
+  last_updated_on: 2020-11-25 23:47:51.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2019-07-18 07:22:56.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-23 22:44:48.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2023-11-27 23:09:24.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 16.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ethiotelecom-et/create-issue-branch/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Rob van der Leek
+  last_updated_on: 2021-12-09 23:45:30.000000000 Z
